@@ -1,0 +1,31 @@
+.drop-menu{
+    background-color: white;
+    border:2px solid rgb(220, 220, 220);
+    border-radius: 10px;
+    width: calc(20vw - 20px);
+    height: calc(100px - 20px);
+    z-index: 100;
+    position: fixed;
+    left: 40px;
+    top: calc(10vh - 15px);
+    padding: 10px;
+}
+.filter-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+.filter-name{
+    color: rgb(104, 104, 104);
+}
+.options-menu{
+    position: fixed;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    left: 250px;
+    margin-top: -10px;   
+    cursor: pointer; 
+    border:2px solid rgb(220, 220, 220);
+}

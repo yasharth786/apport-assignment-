@@ -1,0 +1,23 @@
+.inner-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 40px ;
+}
+.comp-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.tickets-wrapper{
+    width: 17vw;
+    margin-top: 15px;
+}
+.topbar-card{
+    display: flex;
+    justify-content: space-between;
+    width: 17vw;
+    align-items: center;
+}
+.main-outer-wrapper{
+    margin-top: 12vh;
+}

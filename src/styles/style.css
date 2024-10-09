@@ -1,0 +1,65 @@
+.display-btn-wrapper{
+    width: 8%;
+}
+.navbar{
+    padding: 5px 40px;
+    width: calc(100vw - 80px);
+}
+@media screen and (max-width:1000px) {
+    .display-btn-wrapper{
+        width: 100px;
+    }
+    .options-menu{
+        left: 200px;
+    }
+    .navbar{
+        padding:5px 20px;
+        width: calc(100vw - 40px);
+    }
+    .drop-menu{
+        width: calc(250px - 20px);
+        left: 20px;
+    }
+    .inner-wrapper{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .comp-wrapper{
+        width: calc(100vw - 80px);
+        align-items: flex-start;
+        overflow-x: hidden;
+        margin-bottom: 30px;
+    }
+    .topbar-card{
+        width: calc(100vw - 80px);
+    }
+    .tickets-outer{
+        overflow-x: scroll;
+        width: calc(100vw - 80px);
+    }
+    .tickets-outer::-webkit-scrollbar{
+        display: none;
+        width: 0px;
+        background-color: transparent;
+    }
+    .tickets-wrapper{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        width: fit-content;
+        overflow-x: auto;
+    }
+    .ticket-item{
+        width: 200px;
+        margin-left: 5px;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .inner-wrapper{
+        padding: 15px 20px;
+    }
+    .comp-wrapper , .topbar-card , .tickets-outer{
+        width: calc(100vw - 40px);
+    }
+}
